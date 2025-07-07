@@ -13,7 +13,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/games")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
 public class GameController {
 
     private final IGameService gameService;
